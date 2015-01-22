@@ -6,7 +6,10 @@
 
 # Ignore bundler config.
 /.bundle
-/.c9
+/.c9*
+/.c9/metadata/
+/.c9/metadata/tab5
+/.c9/metadata/workspace/.gitignore
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
