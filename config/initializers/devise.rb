@@ -4,7 +4,7 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-  config.secret_key = '9e0fe530a379c7aa7511bf30840db120943910daf2525912a91579d4072c3abca0e81ec7c045eb838e25243a6ffb8d7b1d76e238f41f07188bfd5fb77e51cf43'
+  # config.secret_key = 'a9822739010606ac96db4a44d198a703943dba07ea3b78a6f1119d22d8ec29f5149d957e836b33ee410c692829d0c65ee8ec2586959f3b59fb7ab908c8eb7381'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -97,7 +97,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = 'a2a756e54432f217fca602984ac85ee80b73c94f2017089449b3507cf232908831307136376001e19f8993f3032959534fe79dc16cb96e6662eddf0cc171ace2'
+  # config.pepper = '2c6ae3247c1123591e476ba4c6d1f02fd14b6a03c95a5106b283690224bc6dda8cfc07c58dc1be2fc3a2e52d74947481a0857aeb2924dacbf1afbbc1feea2ba3'
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -173,10 +173,10 @@ Devise.setup do |config|
 
   # Number of authentication tries before locking an account if lock_strategy
   # is failed attempts.
-  config.maximum_attempts = 20
+  # config.maximum_attempts = 20
 
   # Time interval to unlock the account if :time is enabled as unlock_strategy.
-  config.unlock_in = 1.hour
+  # config.unlock_in = 1.hour
 
   # Warn on the last attempt before the account is locked.
   # config.last_attempt_warning = true
@@ -199,7 +199,7 @@ Devise.setup do |config|
   # REST_AUTH_SITE_KEY to pepper).
   #
   # Require the `devise-encryptable` gem when using anything other than bcrypt
-  config.encryptor = :sha512
+  # config.encryptor = :sha512
 
   # ==> Scopes configuration
   # Turn scoped views on. Before rendering "sessions/new", it will first check for
@@ -209,11 +209,11 @@ Devise.setup do |config|
 
   # Configure the default scope given to Warden. By default it's the first
   # devise role declared in your routes (usually :user).
-  config.default_scope = :user
+  # config.default_scope = :user
 
   # Set this configuration to false if you want /users/sign_out to sign out
   # only the current scope. By default, Devise signs out all scopes.
-  config.sign_out_all_scopes = true
+  # config.sign_out_all_scopes = true
 
   # ==> Navigation configuration
   # Lists the formats that should be treated as navigational. Formats like
